@@ -13,7 +13,6 @@ venv/
 .env/
 
 # Ignore dataset files
-*.csv
 *.xlsx
 *.json
 
