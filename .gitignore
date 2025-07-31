@@ -1,0 +1,30 @@
+
+---
+
+## 📄 `.gitignore`
+
+```gitignore
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore dataset files
+*.csv
+*.xlsx
+*.json
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs or secrets
+*.log
+apikeys.json
+openai_key.txt
