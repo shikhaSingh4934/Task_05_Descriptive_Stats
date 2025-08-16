@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Question,Prompt_style,Response,Validated,is_correct,Notes
 GPT-4o, How many players are in this dataset?,zero shot,There are 10 players in this dataset.,yes,yes,
 GPT-4o,What is the average age of the players?,zero shot,Average age of the players is 29.1 years.,yes,yes,
@@ -6,19 +7,34 @@ GPT-4o,"What are the top five attributes (e.g. Dribbling, Finishing) by average 
 GPT-4o,Who are the top 3 players with the highest potential but lower current overall (most improved potential)?,zero shot,"J. Oblak – +3 (Overall: 90 ? Potential: 93),De Gea – +2 (Overall: 91 ? Potential: 93),Neymar Jr – +1 (Overall: 92 ? Potential: 93)",yes,yes,
 GPT-4o,"Among forwards, who has the best finishing and composure ratings?",zero shot,Top forward overall in both Finishing and Composure: Lionel Messi,yes,yes,
 GPT-4o,Which players show the best balance between stamina and sprint speed?,zero shot,"Top 3 players with the best balance between stamina and sprint speed: Cristiano Ronaldo – Avg: 89.5 (Stamina: 88, SprintSpeed: 91),Neymar Jr – Avg: 85.5 (Stamina: 81, SprintSpeed: 90), E. Hazard – Avg: 85.5 (Stamina: 83, SprintSpeed: 88)--Both Neymar Jr and E. Hazard tie for second place. Best overall: Cristiano Ronaldo",yes,yes,
+=======
+Model,Question,Prompt_style,Response,Validated,is_correct
+GPT-4o, How many players are in this dataset?,zero shot,There are 10 players in this dataset.,yes,yes
+GPT-4o,What is the average age of the players?,zero shot,Average age of the players is 29.1 years.,yes,yes
+GPT-4o,"Who is the single highest-valued player, and which club do they play for?",zero shot,Neymar Jr has the highest value of €118.5M. He plays for Paris Saint-Germain.,yes,yes
+GPT-4o,"What are the top five attributes (e.g. Dribbling, Finishing) by average rating across all players?",zero shot,"BallControl – 89.6,Composure – 87.6,Dribbling – 87.5,Reactions – 87.2,Vision – 84.7",yes,yes
+GPT-4o,Who are the top 3 players with the highest potential but lower current overall (most improved potential)?,zero shot,"J. Oblak – +3 (Overall: 90 ? Potential: 93),De Gea – +2 (Overall: 91 ? Potential: 93),Neymar Jr – +1 (Overall: 92 ? Potential: 93)",yes,yes
+GPT-4o,"Among forwards, who has the best finishing and composure ratings?",zero shot,Top forward overall in both Finishing and Composure: Lionel Messi,yes,yes
+GPT-4o,Which players show the best balance between stamina and sprint speed?,zero shot,"Top 3 players with the best balance between stamina and sprint speed: Cristiano Ronaldo – Avg: 89.5 (Stamina: 88, SprintSpeed: 91),Neymar Jr – Avg: 85.5 (Stamina: 81, SprintSpeed: 90), E. Hazard – Avg: 85.5 (Stamina: 83, SprintSpeed: 88)--Both Neymar Jr and E. Hazard tie for second place. Best overall: Cristiano Ronaldo",yes,yes
+>>>>>>> c9b13fed9ba1a9a5695550e9ad61e78c12439dfe
 GPT-4-1-mini,"If I want to build a team focusing on speed and agility, which players should I prioritize?",zero shot,"Top Priority Players for Speed & Agility Team
 L. Messi (Sprint Speed 95, Acceleration 96, Agility 91)
 Neymar Jr (Sprint Speed 94, Acceleration 95, Agility 94)
 Cristiano Ronaldo (Sprint Speed 95, Acceleration 94, Agility 87)
 Eden Hazard (Sprint Speed 94, Acceleration 94, Agility 88)
 
+<<<<<<< HEAD
 These players have excellent speed and agility stats and should form the core of your speed-focused team.",yes,yes,
+=======
+These players have excellent speed and agility stats and should form the core of your speed-focused team.",yes,yes
+>>>>>>> c9b13fed9ba1a9a5695550e9ad61e78c12439dfe
 GPT-4-1-mini,Who would be the best goalkeeper based on the goalkeeper-specific skills?,zero shot,"Best Goalkeeper:
 David De Gea stands out with the highest scores in GKDiving (90), GKReflexes (94), and strong ratings in other goalkeeper skills.
 
 Jan Oblak is very close, especially excelling in GKHandling (92), but overall De Gea edges out slightly.
 
 Recommendation:
+<<<<<<< HEAD
 David De Gea is the best goalkeeper based on the dataset’s goalkeeper-specific skills.",yes,yes,
 GPT-4-1-mini,"For winning more games, should the team focus on improving offensive skills or defensive skills based on current player stats?",zero shot,"Recommendation:
 Focus on improving defensive skills and defensive coordination — this will help balance the team, reduce goals conceded, and support your strong offensive players to convert chances into wins.
@@ -62,3 +78,12 @@ Speed + Agility ? beat opponents in one-on-one situations during counters.
 Ball Control + Dribbling ? maintain possession while moving quickly.
 Vision / Passing ? help launch teammates immediately after winning the ball.
 In short: fast wingers and forwards, plus creative midfielders, are ideal for a team that relies on quick transitions.",,,
+=======
+David De Gea is the best goalkeeper based on the dataset’s goalkeeper-specific skills.",yes,yes
+GPT-4-1-mini,"For winning more games, should the team focus on improving offensive skills or defensive skills based on current player stats?",zero shot,"Recommendation:
+Focus on improving defensive skills and defensive coordination — this will help balance the team, reduce goals conceded, and support your strong offensive players to convert chances into wins.
+
+Improving defense often yields better control of the game and can be more impactful for winning consistently, especially since you already have world-class offensive talent.",yes,yes
+GPT-4-1-mini,Which young players (age under 23) show the most potential to develop into star players?,zero shot,"Summary:
+If you want future stars, prioritize Mbappé, Sané, and Asensio for attack and creativity, and Süle or Sánchez for defensive strength. They have the highest potential and are young enough to develop significantly.",yes,yes
+>>>>>>> c9b13fed9ba1a9a5695550e9ad61e78c12439dfe
