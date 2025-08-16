@@ -1,0 +1,64 @@
+Model,Question,Prompt_style,Response,Validated,is_correct,Notes
+GPT-4o, How many players are in this dataset?,zero shot,There are 10 players in this dataset.,yes,yes,
+GPT-4o,What is the average age of the players?,zero shot,Average age of the players is 29.1 years.,yes,yes,
+GPT-4o,"Who is the single highest-valued player, and which club do they play for?",zero shot,Neymar Jr has the highest value of €118.5M. He plays for Paris Saint-Germain.,yes,yes,
+GPT-4o,"What are the top five attributes (e.g. Dribbling, Finishing) by average rating across all players?",zero shot,"BallControl – 89.6,Composure – 87.6,Dribbling – 87.5,Reactions – 87.2,Vision – 84.7",yes,yes,
+GPT-4o,Who are the top 3 players with the highest potential but lower current overall (most improved potential)?,zero shot,"J. Oblak – +3 (Overall: 90 ? Potential: 93),De Gea – +2 (Overall: 91 ? Potential: 93),Neymar Jr – +1 (Overall: 92 ? Potential: 93)",yes,yes,
+GPT-4o,"Among forwards, who has the best finishing and composure ratings?",zero shot,Top forward overall in both Finishing and Composure: Lionel Messi,yes,yes,
+GPT-4o,Which players show the best balance between stamina and sprint speed?,zero shot,"Top 3 players with the best balance between stamina and sprint speed: Cristiano Ronaldo – Avg: 89.5 (Stamina: 88, SprintSpeed: 91),Neymar Jr – Avg: 85.5 (Stamina: 81, SprintSpeed: 90), E. Hazard – Avg: 85.5 (Stamina: 83, SprintSpeed: 88)--Both Neymar Jr and E. Hazard tie for second place. Best overall: Cristiano Ronaldo",yes,yes,
+GPT-4-1-mini,"If I want to build a team focusing on speed and agility, which players should I prioritize?",zero shot,"Top Priority Players for Speed & Agility Team
+L. Messi (Sprint Speed 95, Acceleration 96, Agility 91)
+Neymar Jr (Sprint Speed 94, Acceleration 95, Agility 94)
+Cristiano Ronaldo (Sprint Speed 95, Acceleration 94, Agility 87)
+Eden Hazard (Sprint Speed 94, Acceleration 94, Agility 88)
+
+These players have excellent speed and agility stats and should form the core of your speed-focused team.",yes,yes,
+GPT-4-1-mini,Who would be the best goalkeeper based on the goalkeeper-specific skills?,zero shot,"Best Goalkeeper:
+David De Gea stands out with the highest scores in GKDiving (90), GKReflexes (94), and strong ratings in other goalkeeper skills.
+
+Jan Oblak is very close, especially excelling in GKHandling (92), but overall De Gea edges out slightly.
+
+Recommendation:
+David De Gea is the best goalkeeper based on the dataset’s goalkeeper-specific skills.",yes,yes,
+GPT-4-1-mini,"For winning more games, should the team focus on improving offensive skills or defensive skills based on current player stats?",zero shot,"Recommendation:
+Focus on improving defensive skills and defensive coordination — this will help balance the team, reduce goals conceded, and support your strong offensive players to convert chances into wins.
+
+Improving defense often yields better control of the game and can be more impactful for winning consistently, especially since you already have world-class offensive talent.",yes,yes,
+GPT-4-1-mini,Which young players (age under 23) show the most potential to develop into star players?,zero shot,"Summary:
+If you want future stars, prioritize Mbappé, Sané, and Asensio for attack and creativity, and Süle or Sánchez for defensive strength. They have the highest potential and are young enough to develop significantly.",yes,yes,
+GPT-5 (new),"Among goalkeepers, who is the most complete across GK attributes?",zeroshot,"David De Gea (Total 444 vs. Oblak’s 433) — more balanced across all GK attributes, with especially elite reflexes and diving. Oblak is a close second, particularly if you value consistency and safe hands (handling).",yes,yes,recognized each attribute correctly
+GPT-5 (new),"Who are the top fastest vs strongest players, and how do their Overall ratings compare?",zeroshot,"Speed Demons (Mbappé, Messi, Ronaldo, Neymar, Sané) not only are fastest but also have very high Overall ratings (mostly 90+).   Strength Giants (Süle, Tah, de Ligt) are physically dominant but have lower Overall ratings (82–84) compared to attackers.",yes,yes,not only found the answer to the questions but also gave extra insights.
+GPT-5 (new),Which body type tends to correlate with higher sprint speed?,zeroshot,"Lean / Unique body types ? higher Sprint Speed (most >90). Normal body type ? balanced (mid-80s to low-90s speed). Stocky body type ? lower Sprint Speed, higher Strength. In short: “Lean” and “Unique” builds correlate best with pace, while “Stocky” builds sacrifice speed for power.",yes,yes,
+GPT-5 (new),Does higher ShotPower correlate with better Finishing?,Few Shot,"There is some positive correlation — many top strikers (Ronaldo, Kane, Lewandowski) are strong in both. But it’s not a strict rule — Messi and Suárez show that elite finishing can exist without top Shot Power. So in your dataset: Higher Shot Power often accompanies high Finishing, but not always. They measure related but distinct abilities.",,,"Firstly, it provided an answer based on its knowledge, rather than using my dataset, so I had to give it another prompt to utilize my dataset for analysis."
+GPT-5 (new),Who is most reliable in penalty shootouts?,zeroshot,"Most Reliable Penalty Takers in your dataset:
+Cristiano Ronaldo – elite across all penalty-related stats, the clear #1.
+Harry Kane – excellent choice, nearly as strong.
+Robert Lewandowski – very consistent as well.
+Insight:
+Messi, despite being an all-time great, is less reliable in penalties purely by attribute ratings.",,,"I just asked a basic question in which direct or indirect columns were not mentioned, and it correctly analyzed which columns will be helpful to answer this question."
+GPT-5.1-mini,Which players are best suited for a high pressing system?,zeroshot,"Wingers and forwards like Mbappé, Sané, and Dembélé are ideal for high pressing due to explosive pace, agility, and decent stamina.
+Central forwards like Ronaldo can press effectively because of strength, acceleration, and aggression, though stamina may limit constant pressing.
+Aggression and Work Rate are crucial: High/High or High/Medium players maintain pressure over 90 minutes.",,,"I just asked a basic question in which direct or indirect columns were not mentioned, and it correctly analyzed which columns will be helpful to answer this question."
+GPT-5.1-mini,Which players should a club build around long-term ?,zeroshot,"Attack/Creativity ? Mbappé, Sané, Asensio, Dembélé, Martial.
+Midfield ? Dele Alli for playmaking and transition.
+Defense ? Süle and de Ligt for central defense stability.
+Recommendation: A club should build around Mbappé as the primary star forward, supported by young wingers like Sané/Dembélé and a backbone of strong young defenders (Süle, de Ligt). This ensures both immediate quality and long-term growth.",,,"He answered the question perfectly, but didn't consider contract validity."
+GPT-5.1-mini,"Which players should a club build around long-term, considering good contract validity this time?",few shot,"Most high-potential young stars have contracts expiring soon (2021–2023). This is a red flag for long-term planning — clubs should prioritize renewing contracts before building the squad around them.
+Players like Dele Alli stand out because he has both high potential and a contract lasting until 2024, making him easier to keep long-term without immediate renegotiation.
+Mbappé, Sané, Dembélé, and de Ligt are top long-term options if their clubs secure longer contracts, otherwise risk losing them.
+? Conclusion:
+A club should build around Mbappé, Sané, Asensio, Dembélé, de Ligt, Süle, and Dele Alli, but first ensure contract renewals for all except Dele Alli, who already has a safe duration.",,,"Here, it considered contract validity and gave nice insights."
+GPT-5.1-mini,Who would be the most cost-effective signing if a club had a limited budget but wanted the highest future performance?,Few shot,"So, to refine the previous answer:
+M. de Ligt ? Value €27M, Wage €11K ? very affordable, high potential ? still best cost-effective signing.
+Gabriel Jesus ? Value €41M, Wage €130K ? higher maintenance cost, so less ideal for a very tight budget.
+Kimpembe ? Value €30.5M, Wage €82K ? reasonable for future potential, mid-budget option.
+T. Lemar ? Value €35.5M, Wage €64K ? good balance of cost and future performance.? Takeaway: Wage is an important factor for ongoing affordability, especially if you have a limited budget. The Value-to-Potential ratio should be adjusted by Wage to truly find the most cost-effective long-term signing.",,,"It analyzed and finalized the columns accurately but initially didn’t include the ‘wage’ column. I suggested adding it, and it was approved, after which the answer was refined accordingly"
+GPT-5.1-mini,Which player would you rely on to control the midfield and dictate play tempo without naming specific stats?,zeroshot,"From your dataset, the player best suited for this role would be someone like Kevin De Bruyne.
+He combines creativity, vision, and passing ability with the stamina and work rate to cover the midfield effectively.
+He can control the tempo, switching between quick attacking bursts and patient buildup.
+His decision-making and positioning allow him to influence both defensive transitions and offensive plays.",,,
+GPT-5.1-mini,Which players are most likely to excel in quick transitions from defense to attack?,zeroshot,"Why They Excel
+Speed + Agility ? beat opponents in one-on-one situations during counters.
+Ball Control + Dribbling ? maintain possession while moving quickly.
+Vision / Passing ? help launch teammates immediately after winning the ball.
+In short: fast wingers and forwards, plus creative midfielders, are ideal for a team that relies on quick transitions.",,,

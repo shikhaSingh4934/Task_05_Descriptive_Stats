@@ -4,6 +4,9 @@
 ## 📄 `.gitignore`
 
 ```gitignore
+# Ignore Dataset folder
+Dataset/
+
 # Ignore Python bytecode
 __pycache__/
 *.py[cod]
@@ -13,7 +16,6 @@ venv/
 .env/
 
 # Ignore dataset files
-*.csv
 *.xlsx
 *.json
 
@@ -28,3 +30,4 @@ Thumbs.db
 *.log
 apikeys.json
 openai_key.txt
+
